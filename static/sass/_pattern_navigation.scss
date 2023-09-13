@@ -22,7 +22,7 @@
 
   .p-navigation--sliding {
     z-index: 40;
-    
+
     .p-link--inverted {
       font-weight: 400;
     }
@@ -124,10 +124,10 @@
             }
           }
         }
-        
+
         &.is-active[role="menuitem"] {
           @extend .is-selected;
-          
+
           > .p-navigation__link {
             background-color: #2d2d2d;
           }
@@ -136,7 +136,7 @@
         @media (max-width: $breakpoint-navigation-threshold) {
           &.is-active[role="menuitem"] {
             &::before {
-            content: none;
+              content: none;
             }
           }
         }
