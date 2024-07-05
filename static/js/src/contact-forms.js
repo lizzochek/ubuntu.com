@@ -6,8 +6,8 @@ function validateCheckbox(event, fieldsetId) {
 }
 
 function getRadioItemValue(fieldset) {
-    const selectedRadio = fieldset.querySelector("input[name='how-many-machines-do-you-have']:checked")
-    return selectedRadio ? selectedRadio.value : ''
+    const selectedRadio = fieldset.querySelector("input[name='how-many-machines-do-you-have']:checked");
+    return selectedRadio ? selectedRadio.value : '';
 }
 
 function getCheckboxItemsAsCSV(fieldset) {
