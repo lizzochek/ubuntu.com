@@ -1712,3 +1712,10 @@ legend {
     position: relative !important;
   }
 }
+
+.p-equal-height-row-50-50 {
+  .p-equal-height-row__col {
+    grid-column: span 6;
+    padding-top: 0.5rem;
+  }
+}
